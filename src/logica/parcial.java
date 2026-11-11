@@ -10,8 +10,8 @@ public class Parcial {
 		} else if (a == 0) {
 			throw new Exception("Valor a invalido");
 		}else {
-			double raizUno = ((-b)+Math.sqrt(determinante))/2*a;
-			double raizDos = ((-b)-Math.sqrt(determinante))/2*a;
+			double raizUno = ((-b)+Math.sqrt(determinante))/(2*a);
+			double raizDos = ((-b)-Math.sqrt(determinante))/(2*a);
 			
 			return "" + raizUno + "," + raizDos;
 			
